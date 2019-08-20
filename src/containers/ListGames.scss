@@ -1,0 +1,25 @@
+.ListGames {
+  .react-multi-carousel-track {
+    height: 100px;
+  }
+  .card {
+    width: 90%;
+    margin: auto;
+    background-color: #9B59B6 !important;
+    .content {
+      text-align: center;
+      .header {
+        color: #ffffff;
+      }
+      .meta {
+        color: #ffffff;
+      }
+    }
+  }
+  
+  
+  .item-car {
+    width: 250px;
+    text-align: center;
+  }
+}

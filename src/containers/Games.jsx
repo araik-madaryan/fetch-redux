@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux';
 import { asyncFetchGames } from '../actions/fetchGames';
 import ListGames from './ListGames';
 
+
 class Games extends Component {
   componentDidMount() {
     const { asyncFetchGames } = this.props;
@@ -14,7 +15,7 @@ class Games extends Component {
     const { games } = this.props;
     return (
       <div className="Games">
-        {games.map((games, i) => <ListGames {...games} key={i} />)}
+        <ListGames games={games} />        
       </div>
     );
   }
